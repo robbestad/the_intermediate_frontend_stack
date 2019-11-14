@@ -1,0 +1,35 @@
+{
+  "name": "intermediate_app",
+  "version": "1.0.0",
+  "description": "Starter for template based apps",
+  "license": "MIT",
+  "author": {
+    "name": "Sven Anders Robbestad",
+    "email": "svena@roobestad.com",
+    "url": "https://www.robbestad.com"
+  },
+  "engines": {
+    "node": ">=13.0.1"
+  },
+  "scripts": {
+    "build": "gulp"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "templates"
+  ],
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-filenames": "^4.0.1",
+    "gulp-ignore": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.3",
+    "handlebars": "^4.5.2",
+    "through2": "^3.0.1"
+  }
+}
