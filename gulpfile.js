@@ -30,9 +30,6 @@ gulp.task('handlebars', function () {
 			helpers: {
 				caps: function (str) {
 					return str.toUpperCase();
-				},
-				cheddar: function(input){
-					return isNaN(input) ? input : input*6;
 				}
 			}
 		}

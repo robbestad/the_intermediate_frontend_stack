@@ -1,6 +1,6 @@
 module.exports = {
     title: "Secret night watch home page",
-    firstName: "Jonny",
+    firstName: "Jon",
     lastName: "Snow",
     age: 21,
     links: [
