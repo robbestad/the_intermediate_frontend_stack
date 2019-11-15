@@ -12,6 +12,7 @@
     "node": ">=13.0.1"
   },
   "scripts": {
+    "prebuild": "rimraf build",
     "build": "gulp"
   },
   "files": [
@@ -30,6 +31,10 @@
     "gulp-rename": "^1.2.2",
     "gulp-util": "^3.0.3",
     "handlebars": "^4.5.2",
+    "rimraf": "^3.0.0",
     "through2": "^3.0.1"
+  },
+  "devDependencies": {
+    "debug": "^4.1.1"
   }
 }

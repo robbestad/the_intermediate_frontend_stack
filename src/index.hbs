@@ -1,10 +1,47 @@
 {{> header}}
+
 <main>
-   {{> nav}} 
+    <section class="info">
+        <p>
+            <img class="logo" src="assets/lion.svg">
+        </p>
+        <h1 class="headline">
+            Templating is fun
+        </h1>
+        <p>
+            <a class="call-to-action" href="https://www.robbestad.com/posts/2019/webdev/web-dev-with-templates/">Get
+                Started</a>
+        </p>
+    </section>
+
+    <section class="pros">
+        <div>
+            <img class="pro" src="assets/thumbsup.svg">
+            <h3>Simple</h3>
+            <div>It's just a build tool, and the site is completely static.</div>
+        </div>
+        <div>
+            <img class="pro" src="assets/brain.svg">
+            <h3>Smart</h3>
+            <div>No frameworks to learn. Just build and deploy.</div>
+        </div>
+        <div>
+            <img class="pro" src="assets/musclearm.svg">
+            <h3>Powerful</h3>
+            <div>HTML, templates and plain pedal-to-the-metal JavaScript.</div>
+        </div>
+        <div>
+            <img class="pro" src="assets/crayon.svg">
+            <h3>Effective</h3>
+            <div>Less to learn, lets you focus on making a <strong>great user experience</strong> rather than tons of code.</div>
+        </div>
+    </section>
+
+    <!--
+    {{> nav}}
     <article>
         <p>Hello {{firstName}} {{caps lastName}}</p>
-        <p>This is the homepage of the Night's Watch</p>
-        <p>{{lorem}}</p>
     </article>
+-->
 </main>
 {{> footer}}

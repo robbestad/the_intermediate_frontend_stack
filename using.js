@@ -1,7 +1,8 @@
-var through = require('through2');    // npm install --save through2
+var through = require('through2');    
+var debug = require("debug")("using");
 module.exports = function() {
   return through.obj(function(file, encoding, callback) {
-    console.log("compiling",file.relative);
+    debug("compiling",file.relative);
     callback(null, file);
   });
 };
