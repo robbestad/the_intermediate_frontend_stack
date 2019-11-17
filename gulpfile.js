@@ -52,6 +52,7 @@ gulp.task('handlebars', function () {
 				batch: ['./src/partials'],
 				helpers: {
 					caps: function (str) {
+						if(!str) return void 0;
 						return str.toUpperCase();
 					}
 				}
@@ -61,6 +62,9 @@ gulp.task('handlebars', function () {
 		resolve()
 	});
 });
+gulp.task('build',
+	gulp.parallel(['handlebars', 'styles', 'assets']),
+	function (done) { done() });
 
 gulp.task('default',
 	gulp.parallel(['handlebars', 'styles', 'assets', 'watch']),
