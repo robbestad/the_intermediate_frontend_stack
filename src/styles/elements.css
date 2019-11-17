@@ -28,7 +28,7 @@ section.buttons{
 section.pros{
     display:grid;
     grid-gap: 1rem;
-    margin: 2rem 0;
+    margin: 2rem 1rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 @media(max-width:600px){
